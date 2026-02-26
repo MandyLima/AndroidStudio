@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
             val idade = edtIdade.text.toString()
             if(nome.equals("Amanda", true)
                 && idade.equals("18")){
-                Toast.makeText(this,"Bem Vinda!",Toast.LENGTH_SHORT).show()
+                Toast.makeText(this,"Bem Vinda! ${nome}, Sua idade é ${idade}",Toast.LENGTH_SHORT).show()
             }else{
                 Toast.makeText(this,"Verifique Login!",Toast.LENGTH_SHORT).show()
             }
